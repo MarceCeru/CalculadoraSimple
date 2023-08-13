@@ -1,0 +1,123 @@
+body{
+  /*  background-color: rgb(188, 196, 150);*/
+  background-image: url(pattern-7863476_1280.jpg);
+
+
+}
+
+.botoncalcular{
+    background-color: rgb(165, 201, 160) ;
+    padding: 16px 32px;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    border: none;
+    top: 60PX;
+    left: 22.5%;
+}
+
+.botonborrar{
+    background-color: rgb(165, 201, 160) ;
+    padding: 16px 32px;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    border: none;
+    top: 70px;
+    text-align: center;
+    left: 30%;
+}
+
+.botonborrar:hover{
+background-color: red;
+}
+
+button:hover{
+   background-color: red;
+}
+
+
+select{
+background-color: rgb(165, 201, 160) ;
+padding: 16px 32px;
+font-size: 24px;
+font-weight: bold;
+position: relative;
+border-radius: 12px;
+border: none;
+top: 60PX;
+left: 7.5%;
+}
+
+.botoningreso{
+   background-color: rgb(165, 201, 160); 
+    padding: 16px 32px;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    border: none;
+    left: 5%;
+    text-align: center;
+}
+
+.botoningreso2{
+    background-color: rgb(165, 201, 160); 
+    padding: 16px 32px;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    border: none;
+    top: 15px;
+    left: 5%;
+    text-align: center;
+}
+
+::placeholder{
+    font-size: 18px;
+    font-family: cursive;
+}
+
+p{
+    font-size: 24px;
+    font-weight: bold; 
+    padding: 16px 32px;
+    background-color: rgb(165, 201, 160); 
+    border: none;
+    border-radius: 12px;
+    position: relative;
+    width: 300px;
+    top: 70px;
+    left: 7.5%;
+    text-align: center;
+}
+
+
+h1{
+   
+    font-size: 24px;
+    font-weight: bold; 
+    padding: 16px 32px;
+    background-color: rgb(165, 201, 160); 
+    border: none;
+    border-radius: 12px;
+    position: relative;
+    width: 300px; 
+    left: 7.5%;
+    text-align: center;
+}
+
+ .recuadro{
+    padding: 10px;
+    border: none;
+    width: 450px;
+    height: 525px;
+    border-radius: 12px;
+    margin: 0 auto;
+    background-color: rgb(133, 116, 93);
+    text-align: centerS;
+  }
+  

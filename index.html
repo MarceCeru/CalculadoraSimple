@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="recuadro">
+
+       
+        <h1>
+            CALCULADORA SIMPLE
+        </h1>
+        <input class="botoningreso" type="number"  placeholder='ingrese el primer numero' id='numero1'>
+        <input class="botoningreso2" type="number" placeholder="ingrese el segundo numero" id='numero2'>
+        
+       
+       <select name="opcion" id="opcion">
+       <option value="+">+</option>
+       <option value="-">-</option>
+       <option value="/">/</option>
+       <option value="*">*</option>
+       </select>
+
+       <button class="botoncalcular"  onclick="calcular()">CALCULAR</button>
+
+        <p id="resultado" >resultado</p> 
+        <input class="botonborrar" type="button" value="BORRAR" onclick="document.location.reload();">
+        <!--<button class="botonborrar" onclick="borrar()">BORRAR</button>-->
+        </div>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
